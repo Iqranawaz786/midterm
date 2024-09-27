@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2575c5;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: rgba(255, 255, 255, 0.8); /* Light translucent background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #0c0b0b;
+    text-shadow: 2px 2px 4px rgba(243, 240, 240, 0.4);
+    margin-bottom: 15px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #4da9ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff6b6b;
+}
+
+#haikuDisplay p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #074ab6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+
+#newInputButton {
+    background-color: #4da9ff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+#newInputButton:hover {
+    background-color: #ff6b6b;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haiku Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Haiku Generator</h1>
+
+        <!-- Form to take user's word -->
+        <form id="haikuForm">
+            <label for="userWord">Enter a word:</label>
+            <input type="text" id="userWord" name="word" required>
+
+            <button type="submit">Generate Haiku</button>
+        </form>
+
+        <!-- Section to display generated haiku -->
+        <div id="haikuDisplay" style="display: none;">
+            <h2>Your Haiku:</h2>
+            <p id="haikuLine1"></p>
+            <p id="haikuLine2"></p>
+            <p id="haikuLine3"></p>
+
+            <!-- Button to regenerate haiku -->
+            <button id="newInputButton">Generate Another Haiku</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
